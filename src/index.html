@@ -12,13 +12,16 @@
   <div class="top-nav">
     <h1 id="page-header">What must be done:</h1>
   </div>
-  <to-do-app id="content">
+  <div id="to-do-app">
     <div class="card">
       <input type="text" class="title" placeholder="New To Do List">
       <textarea class="description" placeholder="Description..."></textarea>
-      <input type="text" class="input-item" placeholder="What must be done?">
+      <div class="list-item">
+        <input type="checkbox">
+        <input id="initial-input" type="text" class="input-item" placeholder="What must be done?">
+      </div>
     </div>
-  </to-do-app>
+  </div>
   <div class="add-btn-container">
     <button id="add-btn">+</button>
   </div>
